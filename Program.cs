@@ -30,6 +30,14 @@ int num1=Convert.ToInt32(Console.ReadLine());
 if (num1%2==0) Console.Write("It is an even number");
 else Console.Write("It is an odd number");*/
 
-/* //Task 8. Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.*/
+/* //Task 8. Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
 
-
+Console.Write("Input you positive number ");
+int num=Convert.ToInt32(Console.ReadLine());
+int current = 1;
+while (current<=num) {
+    if (current%2==0) {
+        Console.Write(current+" ");
+    }
+    current++;
+}*/
